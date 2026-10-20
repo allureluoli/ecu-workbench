@@ -2,6 +2,32 @@
 
 无需卡密、账号或激活的开源离线数据工作台。Python 3.10+，仅使用标准库，可在 Windows / Linux / macOS 运行。
 
+## 功能演示
+
+### 版本与模块浏览
+
+按版本或目录检索，查看模块信息并下载 KP / ECFG 原始附件。
+
+![版本与模块浏览](docs/screenshots/versions.png)
+
+### 地图只读预览
+
+展示已解析 KP 快照的地址、维度、系数和数值表；截图中的数值不代表当前车辆 BIN 的实际值。
+
+![地图元数据与数值表](docs/screenshots/maps.png)
+
+### 故障码查询
+
+按版本、故障码或中文描述筛选，支持导出全部匹配结果为 CSV。
+
+![按版本与关键词查询故障码](docs/screenshots/faults.png)
+
+### BIN 校验与修正
+
+以下截图使用项目自带的合成 CRC32 样本，展示关联原始基准、修正校验字段和复验流程，不代表真实 ECU 原厂校验支持。
+
+![合成 BIN 校验修正演示](docs/screenshots/checksum-demo.png)
+
 ## 启动
 
 ```sh
