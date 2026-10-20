@@ -1,0 +1,5 @@
+{
+  "name": "可再分发合成演示数据",
+  "synthetic": true,
+  "redistribution": "MIT；由 make_demo.py 独立生成"
+}

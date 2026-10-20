@@ -1,0 +1,16 @@
+[
+  {
+    "name": "合成数值表（非 ECU 地图）",
+    "zAddress": "10",
+    "col": 8,
+    "row": 5,
+    "zBit": "16",
+    "zSigned": false,
+    "zLittleEndian": true,
+    "zFactor": 0.1,
+    "zOffset": 0,
+    "lineSkipBytes": 0,
+    "zDatas": "101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f",
+    "zIdName": "demo_table"
+  }
+]

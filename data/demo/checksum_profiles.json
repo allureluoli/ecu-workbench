@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "profiles": [
+    {
+      "id": "synthetic-demo",
+      "name": "合成 CRC32 演示（非 ECU）",
+      "version": -1,
+      "size": 128,
+      "anchors": [
+        {
+          "offset": 0,
+          "hex": "4543552d434b2d44454d4f21"
+        }
+      ],
+      "evidence": "独立 stdlib CRC32 计算的合成夹具，不代表任何 ECU 支持",
+      "blocks": [
+        {
+          "id": "calibration",
+          "algorithm": "crc32",
+          "regions": [
+            [
+              16,
+              96
+            ]
+          ],
+          "store_offset": 120,
+          "byteorder": "little"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+/state/
+/dist/
+*.log
+*.bin
+!data/demo/*.bin
+*.db
+!data/demo/ecu-mask.db
+*.kp
+*.ECFG
+*.pem
+*.license
+license.dat
+cards.json
+.card_secret
+
+# Integrated dataset
+!data/local/**/*.db
+!data/local/**/*.kp
+!data/local/**/*.ECFG

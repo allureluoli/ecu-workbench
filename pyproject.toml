@@ -1,0 +1,8 @@
+[project]
+name = "ecu-workbench-open"
+version = "0.1.0"
+description = "Offline ECU catalog, map snapshot inspection and explicit checksum profiles"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
